@@ -9,7 +9,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //add Ocelot
-builder.Services.AddOcelot;
+builder.Services.AddOcelot();
 
 //load the configurations from app seetings.json
 builder.Configuration.AddJsonFile("Ocelot.json");
